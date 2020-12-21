@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Display</title>
+    <link rel="stylesheet" href="./includes/stylesheets/weather-display-v1.0.0.css">
+</head>
+<body>
+    <div id="weather-display" class="weather-display">
+        <div class="display-city"></div>
+        <div class="display-icon">
+            <div class="display-icon-image"></div>
+            <div class="display-weather-description"></div>
+        </div>
+        <div class="display-temperature">
+            <div class="top-row">
+                <div class="display-temp"></div>
+            </div>
+            <div class="bottom-row">
+                <div class="display-feels-like"></div>
+                <div class="display-min-temp"></div>
+                <div class="display-max-temp"></div>
+            </div>
+        </div>
+        <div class="display-others">
+            <div class="display-humidity"></div>
+            <div class="display-pressure"></div>
+            <div class="display-wind-speed"></div>
+        </div>
+        <div class="display-form">
+            <form id="city-name" method="POST">
+                <input type="text" name="city" class="input-text" placeholder="Enter City Name" required>
+                <input type="submit" name="submit" value="Get Weather" class="submit-button">
+            </form>
+        </div>
+    </div>
+
+    <script src="./includes/javascripts/jquery-3.5.1.min.js"></script>
+    <script src="./weather-display-v1.0.0.js"></script>
+</body>
+</html>
