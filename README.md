@@ -6,5 +6,7 @@ Enter the city name you are seeking the wather report. Click "Get Weather" butto
 
 # Live URL
 ```
-
+https://shrikumarinfotech.github.io/weather-app/
 ```
+
+<a href="https://shrikumarinfotech.github.io/weather-app/" target="_blank">https://shrikumarinfotech.github.io/weather-app/</a>
